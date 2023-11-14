@@ -1,0 +1,117 @@
+{ "menu":
+  {
+    "about": "PRESENTACIÓN",
+    "experience": "EXPERIENCIA",
+    "experiment": "EXPERIMENTOS",
+    "education": "EDUCACIÓN",
+    "language": "VERSIÓN INGLÉS"
+  },
+  "presentation":
+  {
+    "name": "CARLOS SAN MARTÍN TRUJILLO",
+    "position": "FRONT END DEVELOPER",
+    "skills": "HABILIDADES PRINCIPALES",
+    "description": "Más de 10 años de experiencia trabajando como desarrollador Front End.<br /><br /> Orientado a la precisión, preocupación por lo estético y con un enfoque proactivo para operar tanto de forma independiente como en entornos de equipo multidiciplinarios (Backend, Devops, UX etc.)<br /><br /> En mi recorrido laboral, he sido parte de múltiples proyectos en variadas compañías del rubro del E-commerce, Retail, Consultoras Multinacionales, Aerolineas, comunicaciones, agencias de diseño, Instituciones educacionales, Instituciones de Gobierno, entre otras. <br /><br />Me apasiona el desarrollo web y el diseño, disfruto trabajando en equipo para lograr resultados de calidad, considero tener capacidad para aprender rápidamente y adaptarme a nuevos entornos, lo que me ha permitido enfrentar desafíos técnicos con éxito y entregar proyectos con grandes resultados.<br /><br />  Excelentes relaciones interpersonales, organización y manejo de metodologías ágiles."
+  },
+  "experience": {
+    "cencosud":{
+      "company": "CENCOSUD S.A. PARA WEB EASY.CL ",
+      "name": "CENCOSUD S.A. FOR EASY.CL WEBSITE",
+      "date": "FEBRERO 2018 - JUNIO 2023",
+      "duration": "(5 AÑOS 4 MESES)",
+      "position": "FRONT END DEVELOPER WEB / MOBILE / UI.",
+      "description": "<br /><div><span>IBM WEBSPHERE COMMERCE</span></div> <div>Integrante de Célula de desarrollo Front end para mantención y desarrollos evolutivos para E- commerce IBM www.easy.cl</div> <ul> <li>Encargado de Desarrollo UI, maquetación e integración de re-diseño sitio web easy.cl. Integrante de equipo Front para mejoramiento de experiencia de usuario del sitio web. Soporte y desarrollo UI para plataforma de ECommerce IBM</li> <li>Encargado de Desarrollo, mantención y evolutivos para proyecto React Headless (Headless commerce se basa en una arquitectura donde front end y back end funcionan de forma independiente. El sistema para enviar contenido consiste en utilizar APIS conectadas a elastic Search con data cargada desde las bases de datos de IBM commerce)<br /> <br /><strong>Herramientas utilizadas:</strong> React JS (class Components), javascript, API Rest, Jquery, AWS, CI/CD, Elastic Search, Kibana, App Search, Git, HTML5, CSS3, Metodologías ágiles, JIRA, Vs Code</li> </ul> <br/> <div><span>VTEX COMMERCE</span></div> <div>Integrante de Célula de Front end para mantención y desarrollos evolutivos para E- commerce VTEX www.easy.cl</div> <ul> <li>Encargado de Desarrollo UI, maquetación e integración de re-diseño sitio web easy.cl. Mantención y evolutivos para plataforma de ECommerce VTEX</li> <li>Encargado de Desarrollo de proyecto React Headless Checkout (Consumo de contenidos vía APIS conectadas a un BFF con data cargada desde las bases de datos de Commerce VTEX)<br /><br /> <strong>Herramientas utilizadas:</strong> React JS (Function Components), Clean Arquitecture, javascript, API Rest, AWS, Git, CI/CD, HTML5, CSS3, Design System, Styled-components, Story Books, Atomic Desing, Metodologías ágiles, JIRA, Vs Code</li> </ul>"
+    },
+    "tcs":{
+      "company": "TATA CONSULTANCY SERVICES",
+      "name": "CENCOSUD S.A. FOR EASY.CL WEBSITE",
+      "date": "JUNIO 2013 - FEBRERO 2018",
+      "duration": "(4 AÑOS 9 MESES)",
+      "position": "FRONT END DEVELOPER WEB / MOBILE / UI / UX",
+      "description": "<ul><li><span>CUENTA CENCOSUD - EASY.CL: </span><br />Encargado de Desarrollo UI, maquetación e integración de re-diseño sitio web easy.cl. Integrante de equipo Front para mejoramiento de experiencia de usuario del sitio web. Soporte y desarrollo UI para plataforma de ECommerce IBM.</li> <li><span>CUENTA LATAM AIRLINES:</span><br /> Encargado de Desarrollo UI proyectos cuenta LAN. Diseño de interfaces, conceptualización, maquetación, implementación gráfica, creación de css versiones pc y mobile, Diseño y desarrollo Portal Tripulantes, Creación de componentes UI para aplicaciones móviles IPAD.<br /> Herramientas utilizadas: HTML5, CSS3, Jquery, Jquerymobile, Bootstrap, Eclipse, Liferay</li> <li><span>CUENTA EL MERCURIO: </span><br /> Avisaje on line El Mercurio S.A.: Desarrollo de interfaces, conceptualización, maquetación, implementación gráfica, creación de css versiones pc y mobile, para proyecto de avisaje on line para el Mercurio.<br /> Herramientas utilizadas: HTML5, CSS3, Jquery, Bootstrap, Visual Studio, Adobe Dreamweaver, Adobe Fireworks, Adobe photoshop</li> </ul> "
+    },
+    "ipp":{
+      "company": "INSTITUTO PROFESIONAL DE PROVIDENCIA",
+      "name": "IPP",
+      "date": "ENERO 2013 - MAYO 2013",
+      "duration": "(5 MESES)",
+      "position": "MULTIMEDIA DEVELOPER FRONT UI",
+      "description": "<ul><li>Multimedia development para cursos de carreras en modalidad semi-presencial.</li><li>Cursos Desarrollados en Flash CS6, HTML/CSS.</li><li>Integración de cursos en plataforma EPIC</li></ul>"
+    },
+    "opensoft":{
+      "company": "OPENSOFT",
+      "name": "OPENSOFT",
+      "date": "ENERO 2008 - DICIEMBRE 2012",
+      "duration": "(5 AÑOS)",
+      "position": "MULTIMEDIA E-LEARNING DEVELOPER",
+      "description": "<ul><li>Desarrollo UI para entidades de gobierno y grandes empresas del mercado nacional como por ejemplo: Monumentos Nacionales, Terra, Iansa, Ariztía, SAG, Finning, Ducasse, Monticcelo, Euroamerica, Aiep, Celfin, Santa Rita, Conchaytoro, Cristalchile, Enami, Loreal . (sitios web, intranets, workflows, sistemas a medida entre otros.) Todos basados en plaforma autoadministrable propia de la empresa.</li><li>Manejo y adaptación de lenguajes como html, xml, css, jquery, actionscript, javascript, asp.</li></ul>"
+    },
+    "imagenglobal":{
+      "company": "IMAGEN GLOBAL",
+      "name": "IMAGEN GLOBAL",
+      "date": "ENERO 2003 - DICIEMBRE 2007",
+      "duration": "(5 AÑOS)",
+      "position": "LAYOUT DEVELOPER FRONT UI",
+      "description": "<ul><li>Creación de sitios web para plataformas móviles. (iphone, android etc)</li><li>Experiencia en desarrollo y producción de estrategias de comunicación y marketing, implementación integral de campañas para internet (desarrollo de sitios web, banners publicitarios, mailings, E - marketing), entre otros</li><li>Manejo de tecnologías gráficas de comunicación y desarrollo Front (Photoshop, HTML, CSS, action script, javascript), software para edición de audio y video. Proyectos enfocados a la pequeña y mediana empresa.</li></ul>"
+    }
+  }, 
+  "education": {
+    "udemy3":{
+      "company": "UDEMY",
+      "name": "Complete React Developer",
+      "date": "2023"
+    },
+    "aws":{
+      "company": "AWS",
+      "name": "AWS Technical Essentials",
+      "date": "2023"
+    },
+      "udemy1":{
+      "company": "UDEMY",
+      "name": "React, de cero a experto / Fernando Herrera",
+      "date": "2021"
+    },
+      "udemy2":{
+        "company": "UDEMY",
+        "name": "React Pro, React con TypeScript / Fernando Herrera",
+        "date": "2022"
+    },
+    "ibm":{
+      "company": "GLOBAL KNOWLEDGE",
+      "name": "Programming Essentials for IBM WebSphere Commerce V7",
+      "date": "2018"
+  },
+      "mac":{
+        "company": "ACADEMIA MAC-PC",
+        "name": "Javascript - jQuery - HTML Integration",
+        "date": "2012 - 2013"
+    },
+      "digicap":{
+        "company": "DIGICAP",
+        "name": "Programación y Diseño Web HTML5-CSS Responsive",
+        "date": "2010 - 2011"
+    },
+      "language":{
+        "company": "INTERNATIONAL LANGUAGE SERVICE",
+        "name": "Curso Inglés nivel intermedio",
+        "date": "2002 - 2003"
+    },
+      "duoc":{
+        "company": "DUOC - UC",
+        "name": "Publicista Profesional mención Gráfica - Multimedia - Web",
+        "date": "1995 - 2000"
+    }
+    },
+    "experiments":
+    {
+      "coming": "PROXIMAMENTE DISPONIBLE"
+    }
+
+  }
+
+
+
+
+
+
+

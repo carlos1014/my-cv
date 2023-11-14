@@ -1,0 +1,111 @@
+{ "menu":
+    {
+        "about": "ABOUT ME",
+        "experience": "EXPERIENCE",
+        "experiment": "EXPERIMENTS",
+        "education": "EDUCATION",
+        "language": "SPANISH VERSION"
+    },
+    "presentation":
+    {
+      "name": "CARLOS SAN MARTÍN TRUJILLO",
+      "position": "FRONT END DEVELOPER",
+      "skills": "MAIN SKILLS",
+      "description": "More than 10 years of experience working as a Front End developer.<br /><br />Oriented to precision, concern for aesthetics and with a proactive approach to operate both independently and in multidisciplinary team environments (Backend, Devops, UX etc.)<br /><br />In my work career, I have been part of multiple projects in various companies in the field of E-commerce, Retail, Multinational Consulting Companies, Airlines, communications, design agencies, educational institutions, government institutions, among others.<br /><br />I am passionate about web development and design, I enjoy working as a team to achieve quality results, I consider myself to have the ability to learn quickly and adapt to new environments, which has allowed me to successfully face technical challenges and deliver projects with great results.<br /><br />Excellent interpersonal relationships, organization and management of agile methodologies."
+    },
+    "experience": {
+      "cencosud":{
+        "company": "CENCOSUD S.A. FOR WEB EASY.CL WEBSITE ",
+        "name": "CENCOSUD S.A. FOR EASY.CL WEBSITE",
+        "date": "FEBRUARY 2018 - MAY 2023",
+        "duration": "(5 YEARS 4 MONTHS)",
+        "position": "FRONT END DEVELOPER WEB / MOBILE / UI",
+        "description": "<br><div><span>IBM WEBSPHERE COMMERCE</span></div> <div>Front end development cell member for maintenance and evolutionary developments for E-commerce IBM www.easy.cl</div> <ul> <li>Responsible for UI Development, layout and integration of easy.cl website re-design. Front team member to improve the website's user experience. Support and UI development for IBM ECommerce platform</li> <li>Responsible for Development, maintenance and evolutionary for React Headless project (Headless commerce is based on an architecture where front end and back end work independently. The system to send content consists of using APIS connected to elastic Search with data loaded from IBM commerce databases)<br> <br><strong>Tools used:</strong> React JS (class Components), javascript, API Rest, Jquery , AWS, CI/CD, Elastic Search, Kibana, App Search, Git, HTML5, CSS3, Agile methodologies, JIRA, Vs Code</li> </ul> <br> <div><span>VTEX COMMERCE</span ></div> <div>Front end Cell Member for maintenance and evolutionary developments for E-commerce VTEX www.easy.cl</div> <ul> <li>Responsible for UI Development, layout and integration of re- easy.cl website design. Maintenance and evolution for the VTEX ECommerce platform</li> <li>React Headless Checkout project development manager (Consumption of content via APIS connected to a BFF with data loaded from the Commerce VTEX databases)<br><br > <strong>Tools used:</strong> React JS (Function Components), Clean Architecture, javascript, API Rest, AWS, Git, CI/CD, HTML5, CSS3, Design System, Styled-components, Story Books, Atomic Design , Agile methodologies, JIRA, Vs Code </li></ul>"
+      },
+      "tcs":{
+        "company": "TATA CONSULTANCY SERVICES",
+        "name": "CENCOSUD S.A. FOR EASY.CL WEBSITE",
+        "date": "JUNE 2013 - FEBRUARY 2018",
+        "duration": "(4 YEARS 9 MONTHS)",
+        "position": "FRONT END DEVELOPER WEB / MOBILE / UI / UX",
+        "description": "<ul><li><span>CENCOSUD ACCOUNT - EASY.CL: </span><br>In charge of UI Development, layout and integration of easy.cl website re-design. Front team member to improve the website's user experience. Support and UI development for IBM ECommerce platform.</li> <li><span>LATAM AIRLINES ACCOUNT:</span><br> In charge of UI Development for LAN account projects. Interface design, conceptualization, layout, graphic implementation, creation of CSS for PC and mobile versions, Crew Portal design and development, Creation of UI components for iPad mobile applications.<br> Tools used: HTML5, CSS3, Jquery, Jquerymobile, Bootstrap, Eclipse, Liferay</li> <li><span>CUENTA EL MERCURIO: </span><br> Online advertising El Mercurio S.A.: Development of interfaces, conceptualization, layout, graphic implementation, creation of CSS for PC and mobile versions, for online advertising project for Mercurio.<br> Tools used: HTML5, CSS3, Jquery, Bootstrap, Visual Studio, Adobe Dreamweaver, Adobe Fireworks, Adobe photoshop</li> </ul> "
+      },
+      "ipp":{
+        "company": "PROVIDENCE PROFESSIONAL INSTITUTE",
+        "name": "IPP",
+        "date": "JANUARY 2013 - MAY 2013",
+        "duration": "(5 MONTHS)",
+        "position": "MULTIMEDIA DEVELOPER FRONT UI",
+        "description": "<ul><li>Multimedia development for career courses in blended mode.</li><li>Courses developed in Flash CS6, HTML/CSS.</li><li>Integration of courses in the EPIC platform</ li></ul>"
+      },
+      "opensoft":{
+        "company": "OPENSOFT",
+        "name": "OPENSOFT",
+        "date": "JANUARY 2008 - DECEMBER 2012",
+        "duration": "(5 YEARS)",
+        "position": "MULTIMEDIA E-LEARNING DEVELOPER",
+        "description": "<ul><li>UI development for government entities and large companies in the national market such as: National Monuments, Terra, Iansa, Ariztía, SAG, Finning, Ducasse, Monticcelo, Euroamerica, Aiep, Celfin, Santa Rita, Conchaytoro, Cristalchile, Enami, Loreal. (websites, intranets, workflows, custom systems among others.) All based on the company's own self-manageable platform.</li><li>Management and adaptation of languages such as html, xml, css, jquery, actionscript, javascript, asp. </li></ul>"
+      },
+      "imagenglobal":{
+        "company": "IMAGEN GLOBAL",
+        "name": "IMAGEN GLOBAL",
+        "date": "JANUARY 2003 - DECEMBER 2007",
+        "duration": "(5 YEARS)",
+        "position": "LAYOUT DEVELOPER FRONT UI",
+        "description": "<ul><li>Creation of websites for mobile platforms. (iphone, android etc)</li><li>Experience in development and production of communication and marketing strategies, comprehensive implementation of internet campaigns (development of websites, advertising banners, mailings, E - marketing), among others< /li><li>Management of graphic communication technologies and Front development (Photoshop, HTML, CSS, action script, javascript), software for audio and video editing. Projects focused on small and medium-sized businesses. </li></ul>"
+      }
+    }, 
+    "education": {
+      "udemy3":{
+        "company": "UDEMY",
+        "name": "Complete React Developer",
+        "date": "2023"
+      },
+      "aws":{
+        "company": "AWS",
+        "name": "AWS Technical Essentials",
+        "date": "2023"
+      },
+        "udemy1":{
+        "company": "UDEMY",
+        "name": "React, from zero to expert / Fernando Herrera",
+        "date": "2021"
+      },
+        "udemy2":{
+          "company": "UDEMY",
+          "name": "React Pro, React with TypeScript / Fernando Herrera",
+          "date": "2022"
+      },
+      "ibm":{
+        "company": "GLOBAL KNOWLEDGE",
+        "name": "Programming Essentials for IBM WebSphere Commerce V7",
+        "date": "2018"
+    },
+        "mac":{
+          "company": "ACADEMIA MAC-PC",
+          "name": "Javascript - jQuery - HTML Integration",
+          "date": "2012 - 2013"
+      },
+        "digicap":{
+          "company": "DIGICAP",
+          "name": "Responsive HTML5-CSS Web Design and Programming",
+          "date": "2010 - 2011"
+      },
+        "language":{
+          "company": "INTERNATIONAL LANGUAGE SERVICE",
+          "name": "Intermediate level English course",
+          "date": "2002 - 2003"
+      },
+        "duoc":{
+          "company": "DUOC - UC",
+          "name": "Professional Advertising with Graphic mention - Multimedia - Web",
+          "date": "1995 - 2000"
+      }
+      },
+      "experiments":
+      {
+        "coming": "COMING SOON"
+      }
+  
+    }
+  
