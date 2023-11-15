@@ -1,9 +1,4 @@
 import Easy from "@/assets/logosExperience/easy.png"
-import LogoTcsDark from "@/assets/logosExperience/tcsDark.png";
-import LogoTcsLight from "@/assets/logosExperience/tcsLight.png";
-import Ipp from "@/assets/logosExperience/ipp.png";
-import LogoOpensoft from "@/assets/logosExperience/logo_opensoft.jpg";
-import LogoIg from "@/assets/logosExperience/logo_ig.png";
 import { CardGlass } from "@/components/atoms";
 import {
   ContainerText,
@@ -18,7 +13,7 @@ import { useTranslation } from "react-i18next";
 
 
 const ExperienceList = () => {
-    const theme = (localStorage.getItem("theme") || "") 
+
   const { t } = useTranslation();
   return (
     <>
@@ -45,7 +40,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <img src={(theme === 'dark' ? LogoTcsDark : LogoTcsLight)} alt="Tcs" className="logoCompany"/>
+
           <ContainerText>
             <Title>{t("experience.tcs.company")}</Title>
             <SubTitle>{t("experience.tcs.position")}</SubTitle>
@@ -66,7 +61,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <img src={Ipp} alt="Ipp" className="logoCompany"/>
+
           <ContainerText>
             <Title>{t("experience.ipp.company")}</Title>
             <SubTitle>{t("experience.ipp.position")}</SubTitle>
@@ -87,7 +82,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <img src={LogoOpensoft} alt="Opensoft" className="logoCompany"/>
+
           <ContainerText>
             <Title>{t("experience.opensoft.company")}</Title>
             <SubTitle>{t("experience.opensoft.position")}</SubTitle>
@@ -108,7 +103,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <img src={LogoIg} alt="LogoIg" className="logoCompany"/>
+
           <ContainerText>
             <Title>{t("experience.imagenglobal.company")}</Title>
             <SubTitle>{t("experience.imagenglobal.position")}</SubTitle>
