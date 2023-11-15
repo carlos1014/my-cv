@@ -27,6 +27,7 @@ const ExperienceList = () => {
       <CardGlass>
         <Container>
           <LogoEasy src={Easy} alt="Easy"></LogoEasy>
+          <img src={Easy} alt="Easy" />
           <ContainerText>
             <Title>{t("experience.cencosud.company")}</Title>
             <SubTitle>{t("experience.cencosud.position")}</SubTitle>
