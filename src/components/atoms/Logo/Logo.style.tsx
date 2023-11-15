@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const ContainerLogo = styled.div`
   height: 100%;
   padding: 15px 0;
 

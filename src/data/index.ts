@@ -1,3 +1,3 @@
 export * from './language';
-export { default as listsIcons } from './listsIconsDark';
-export * from './locale';
+export { default as listsIconsDark } from './listsIconsDark';
+export { default as listsIconsLight } from './listsIconsLight';
