@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 import LogoEasy from "@/assets/logosExperience/easy.png";
 import LogoTcsDark from "@/assets/logosExperience/tcsDark.png";
 import LogoTcsLight from "@/assets/logosExperience/tcsLight.png";
-import LogoIpp from "@/assets/logosExperience/logo_ipp.png";
+import Ipp from "@/assets/logosExperience/ipp.png";
 import LogoOpensoft from "@/assets/logosExperience/logo_opensoft.jpg";
 import LogoIg from "@/assets/logosExperience/logo_ig.png";
 
@@ -67,7 +67,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <LogoCompany src={LogoIpp} alt="Ipp"></LogoCompany>
+          <LogoCompany src={Ipp} alt="Ipp"></LogoCompany>
           <ContainerText>
             <Title>{t("experience.ipp.company")}</Title>
             <SubTitle>{t("experience.ipp.position")}</SubTitle>
