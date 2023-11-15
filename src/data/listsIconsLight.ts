@@ -1,7 +1,7 @@
 // Assets
 import React from "@/assets/iconsSkills/light/react native_icon.svg";
 import Redux from "@/assets/iconsSkills/light/redux_icon.svg";
-import Javascript from "@/assets/iconsSkills/light/Javascript_icon.svg";
+import Javascript from "@/assets/iconsSkills/light/javascript_icon.svg";
 import Typescript from "@/assets/iconsSkills/light/typescript_icon.svg";
 import Html from "@/assets/iconsSkills/light/html_5.svg";
 import Css from "@/assets/iconsSkills/light/css3_icon.svg";
