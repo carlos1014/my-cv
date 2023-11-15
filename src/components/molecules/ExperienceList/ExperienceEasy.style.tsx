@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerEasy = styled.div`
   display: flex;
   align-items: center;
+  position: relative;
   @media only screen and (max-width: 1024px) {
     margin-left: 0;
   }

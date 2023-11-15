@@ -10,10 +10,8 @@ export type Props = {
 
 // Default values
 const Defaults = {
-  onClick: undefined,
+  style: undefined,
   children: undefined,
-  border: false,
-  testId: undefined,
 };
 
 const CardGlass = (props: Props) => {
