@@ -1,26 +1,25 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  .logoCompany {
+    height: 120px;
+    width: 120px;
+
+    @media only screen and (max-width: 1024px) {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: 15px;
+      height: 100px;
+      width: 100px;
+    }
+  }
   display: flex;
   align-items: center;
   @media only screen and (max-width: 1024px) {
     margin-left: 0;
-  }
-`;
-
-export const LogoCompany = styled.img`
-  height: 120px;
-  width: 120px;
-
-  @media only screen and (max-width: 1024px) {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top:15px;
-    height: 100px;
-    width: 100px;
   }
 `;
 
@@ -34,7 +33,7 @@ export const LogoEasy = styled.img`
     margin-right: auto;
     left: 0;
     right: 0;
-    top:15px;
+    top: 15px;
     height: 100px;
     width: 100px;
   }
@@ -50,7 +49,7 @@ export const LogoTcs = styled.img`
     margin-right: auto;
     left: 0;
     right: 0;
-    top:15px;
+    top: 15px;
     height: 100px;
     width: 100px;
   }
@@ -143,7 +142,6 @@ export const Duration = styled.div`
   }
 `;
 
-
 export const Text = styled.p`
   font-size: 17px;
   line-height: 18px;
@@ -153,18 +151,18 @@ export const Text = styled.p`
   margin-top: 10px;
   padding: 0 0 0 25px;
 
-  ul{
+  ul {
     padding: 20px 0;
   }
 
-  li{
+  li {
     padding-bottom: 10px;
     line-height: 20px;
   }
 
-  span{
+  span {
     font-weight: 700;
     color: ${({ theme }) => theme.colors.subtitle};
-    font-size:20px ;
+    font-size: 20px;
   }
 `;
