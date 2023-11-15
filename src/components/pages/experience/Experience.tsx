@@ -1,5 +1,6 @@
 import { Container, Col, Row } from "react-grid-system";
 import { ExperienceEasy, ExperienceTcs } from "@/components/molecules";
+import ExperienceList from "@/components/molecules/ExperienceList/ExperienceList";
 
 const Experience = () => {
   return (
@@ -14,6 +15,7 @@ const Experience = () => {
               marginTop: "120px",
             }}
           >
+            <ExperienceList />
             <ExperienceEasy />
             <ExperienceTcs />
           </Col>
