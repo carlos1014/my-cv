@@ -6,6 +6,7 @@ export const ContainerLogo = styled.div`
 
   .imgLogo {
     width: 300px;
+    cursor: pointer;
   }
 
   @media screen and (max-width: 1200px) {

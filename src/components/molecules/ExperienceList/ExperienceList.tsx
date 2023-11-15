@@ -1,4 +1,4 @@
-import LogoEasy from "@/assets/logosExperience/easy.png";
+import Easy from "../../../assets/logosExperience/easy.png"
 import LogoTcsDark from "@/assets/logosExperience/tcsDark.png";
 import LogoTcsLight from "@/assets/logosExperience/tcsLight.png";
 import Ipp from "@/assets/logosExperience/ipp.png";
@@ -24,7 +24,7 @@ const ExperienceList = () => {
     <>
       <CardGlass>
         <Container>
-          <LogoCompany src={LogoEasy} alt="Easy"></LogoCompany>
+          <LogoCompany src={Easy} alt="Easy"></LogoCompany>
           <ContainerText>
             <Title>{t("experience.cencosud.company")}</Title>
             <SubTitle>{t("experience.cencosud.position")}</SubTitle>

@@ -3,12 +3,17 @@ import LogoBlack from '@/assets/images/logo_black.png';
 import { ContainerLogo } from './Logo.style';
 
 const Logo = () => {
-    const theme = (localStorage.getItem("theme") || "") 
+    const theme = (localStorage.getItem("theme") || "");
+    const onGetHome = () => {
+      window.open(
+        "/"
+      );
+    };
         
   return (
 
     <ContainerLogo>
-        <img src={(theme === 'light' ? LogoBlack : LogoWhite)} alt="" className="imgLogo" />
+        <img src={(theme === 'light' ? LogoBlack : LogoWhite)} alt="" className="imgLogo" onClick={onGetHome} />
     </ContainerLogo>
 
   )

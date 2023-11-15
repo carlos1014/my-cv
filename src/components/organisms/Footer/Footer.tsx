@@ -46,6 +46,12 @@ const onGetLinkedin = () => {
   );
 };
 
+
+const onGetHome = () => {
+  window.open(
+    "/"
+  );
+};
 const Footer = (props: Props) => {
   // Props
   const isDark = window.localStorage.getItem("theme") === "light";
@@ -57,7 +63,7 @@ const Footer = (props: Props) => {
   return (
     <FooterStyle>
       <ContainerLogo>
-        <img src={isDark ? LogoBlack : LogoWhite} alt="" className="imgLogo" />
+        <img src={isDark ? LogoBlack : LogoWhite} alt="" className="imgLogo" onClick={() => onGetHome()} />
       </ContainerLogo>
       <Container>
         <WhatsappStyle>
