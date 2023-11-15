@@ -5,7 +5,6 @@ import {
   ContainerTextEasy,
   DateEasy,
   DurationEasy,
-  LogoCompanyEasy,
   SubTitleEasy,
   TextEasy,
   TitleEasy,
@@ -18,7 +17,7 @@ const ExperienceEasy = () => {
     <>
       <CardGlass>
         <ContainerEasy>
-          <LogoCompanyEasy src={LogoEasy} alt="Easy"/>
+          <img src={LogoEasy} alt="Easy" className="logoCompanyEasy" />
           <ContainerTextEasy>
             <TitleEasy>{t("experience.cencosud.company")}</TitleEasy>
             <SubTitleEasy>{t("experience.cencosud.position")}</SubTitleEasy>
