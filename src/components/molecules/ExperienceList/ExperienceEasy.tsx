@@ -1,14 +1,14 @@
 import LogoEasy from "@/assets/logosExperience/easy.png";
 import { CardGlass } from "@/components/atoms";
 import {
-  LogoCompany,
-  ContainerText,
-  Title,
-  SubTitle,
-  Text,
-  Container,
-  Date,
-  Duration,
+  ContainerEasy,
+  ContainerTextEasy,
+  DateEasy,
+  DurationEasy,
+  LogoCompanyEasy,
+  SubTitleEasy,
+  TextEasy,
+  TitleEasy,
 } from "./ExperienceEasy.style";
 import { useTranslation } from "react-i18next";
 
@@ -17,20 +17,20 @@ const ExperienceEasy = () => {
   return (
     <>
       <CardGlass>
-        <Container>
-          <LogoCompany src={LogoEasy} alt="Easy"/>
-          <ContainerText>
-            <Title>{t("experience.cencosud.company")}</Title>
-            <SubTitle>{t("experience.cencosud.position")}</SubTitle>
-            <Date>{t("experience.cencosud.date")}</Date>
-            <Duration>{t("experience.cencosud.duration")}</Duration>
-          </ContainerText>
-        </Container>
-        <Text
+        <ContainerEasy>
+          <LogoCompanyEasy src={LogoEasy} alt="Easy"/>
+          <ContainerTextEasy>
+            <TitleEasy>{t("experience.cencosud.company")}</TitleEasy>
+            <SubTitleEasy>{t("experience.cencosud.position")}</SubTitleEasy>
+            <DateEasy>{t("experience.cencosud.date")}</DateEasy>
+            <DurationEasy>{t("experience.cencosud.duration")}</DurationEasy>
+          </ContainerTextEasy>
+        </ContainerEasy>
+        <TextEasy
           dangerouslySetInnerHTML={{
             __html: t("experience.cencosud.description"),
           }}
-        ></Text>
+        ></TextEasy>
       </CardGlass>
 
 

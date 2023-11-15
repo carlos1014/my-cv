@@ -1,8 +1,8 @@
 import { CardGlass } from "@/components/atoms";
 import {
-  ContainerText,
-  Title,
-  Container
+  ContainerExperiments,
+  ContainerTextExperiments,
+  TitleExperiments
 } from "./ExperimentsList.style";
 import { useTranslation } from "react-i18next";
 
@@ -12,11 +12,11 @@ const ExperimentsList = () => {
   return (
     <>
       <CardGlass>
-        <Container>
-          <ContainerText>
-            <Title>{t("experiments.coming")}</Title>
-          </ContainerText>
-        </Container>
+        <ContainerExperiments>
+          <ContainerTextExperiments>
+            <TitleExperiments>{t("experiments.coming")}</TitleExperiments>
+          </ContainerTextExperiments>
+        </ContainerExperiments>
       </CardGlass>
 
     </>

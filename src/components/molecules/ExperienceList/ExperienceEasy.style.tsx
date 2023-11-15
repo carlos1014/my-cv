@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const ContainerEasy = styled.div`
   display: flex;
   align-items: center;
   @media only screen and (max-width: 1024px) {
@@ -8,7 +8,7 @@ export const Container = styled.div`
   }
 `;
 
-export const LogoCompany = styled.img`
+export const LogoCompanyEasy = styled.img`
   height: 120px;
   width: 120px;
 
@@ -24,14 +24,14 @@ export const LogoCompany = styled.img`
   }
 `;
 
-export const ContainerText = styled.div`
+export const ContainerTextEasy = styled.div`
   margin-left: 15px;
   @media only screen and (max-width: 1024px) {
     margin: 100px auto 0 auto;
   }
 `;
 
-export const Title = styled.div`
+export const TitleEasy = styled.div`
   font-size: 35px;
   line-height: 35px;
   font-family: ${({ theme }) => theme.fonts.Roboto};
@@ -51,7 +51,7 @@ export const Title = styled.div`
   }
 `;
 
-export const SubTitle = styled.div`
+export const SubTitleEasy = styled.div`
   font-size: 28px;
   line-height: 28px;
   font-family: ${({ theme }) => theme.fonts.Roboto};
@@ -71,7 +71,7 @@ export const SubTitle = styled.div`
   }
 `;
 
-export const Date = styled.div`
+export const DateEasy = styled.div`
   font-size: 25px;
   line-height: 25px;
   font-family: ${({ theme }) => theme.fonts.Roboto};
@@ -91,7 +91,7 @@ export const Date = styled.div`
   }
 `;
 
-export const Duration = styled.div`
+export const DurationEasy = styled.div`
   font-size: 19px;
   line-height: 25px;
   font-family: ${({ theme }) => theme.fonts.Roboto};
@@ -112,7 +112,7 @@ export const Duration = styled.div`
 `;
 
 
-export const Text = styled.p`
+export const TextEasy = styled.p`
   font-size: 17px;
   line-height: 18px;
   font-family: ${({ theme }) => theme.fonts.Roboto};
