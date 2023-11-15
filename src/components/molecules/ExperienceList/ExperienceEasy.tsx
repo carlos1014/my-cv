@@ -9,7 +9,7 @@ import {
   Container,
   Date,
   Duration,
-} from "./ExperienceList.style";
+} from "./ExperienceEasy.style";
 import { useTranslation } from "react-i18next";
 
 const ExperienceEasy = () => {

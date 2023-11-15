@@ -10,7 +10,7 @@ import {
   Container,
   Date,
   Duration,
-} from "./ExperienceList.style";
+} from "./ExperienceTcs.style";
 import { useTranslation } from "react-i18next";
 const theme = localStorage.getItem("theme") || "";
 

@@ -24,38 +24,6 @@ export const LogoCompany = styled.img`
   }
 `;
 
-export const LogoEasy = styled.img`
-  height: 120px;
-  width: 120px;
-
-  @media only screen and (max-width: 1024px) {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top:15px;
-    height: 100px;
-    width: 100px;
-  }
-`;
-
-export const LogoTcs = styled.img`
-  height: 120px;
-  width: 120px;
-
-  @media only screen and (max-width: 1024px) {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top:15px;
-    height: 100px;
-    width: 100px;
-  }
-`;
-
 export const ContainerText = styled.div`
   margin-left: 15px;
   @media only screen and (max-width: 1024px) {
