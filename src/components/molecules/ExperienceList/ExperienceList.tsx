@@ -1,4 +1,5 @@
 import Easy from "@/assets/logosExperience/easy.png"
+import Tcs from "@/assets/logosExperience/tcs.png";
 import { CardGlass } from "@/components/atoms";
 import {
   ContainerText,
@@ -40,7 +41,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-
+        <img src={Tcs} alt="Tcs" className="logoCompany"/>
           <ContainerText>
             <Title>{t("experience.tcs.company")}</Title>
             <SubTitle>{t("experience.tcs.position")}</SubTitle>
