@@ -15,8 +15,8 @@ type GlobalThemeProps = {
 
   body  {
     -webkit-font-smoothing: antialiased;
-    background-color: ${({ theme }) => theme.colors.background};
-    background-image: ${({ theme }) => theme.colors.backgroundImage};
+    background: ${({ theme }) => theme.colors.background};
+    background-size: ${({ theme }) => theme.colors.backgroundSize};
   }
 
   h1 {
