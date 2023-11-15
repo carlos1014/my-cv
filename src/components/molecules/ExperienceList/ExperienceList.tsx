@@ -11,12 +11,12 @@ import {
 } from "./ExperienceList.style";
 import { useTranslation } from "react-i18next";
 // Assets
-import LogoEasy from "@/assets/logos-experience/easy.png";
-import LogoTcsDark from "@/assets/logos-experience/tcsDark.png";
-import LogoTcsLight from "@/assets/logos-experience/tcsLight.png";
-import LogoIpp from "@/assets/logos-experience/Logo_ipp.png";
-import LogoOpensoft from "@/assets/logos-experience/logo_opensoft.jpg";
-import LogoIg from "@/assets/logos-experience/logo_ig.png";
+import LogoEasy from "@/assets/logosExperience/easy.png";
+import LogoTcsDark from "@/assets/logosExperience/tcsDark.png";
+import LogoTcsLight from "@/assets/logosExperience/tcsLight.png";
+import LogoIpp from "@/assets/logosExperience/Logo_ipp.png";
+import LogoOpensoft from "@/assets/logosExperience/logo_opensoft.jpg";
+import LogoIg from "@/assets/logosExperience/logo_ig.png";
 
 const ExperienceList = () => {
     const theme = (localStorage.getItem("theme") || "") 
@@ -25,7 +25,7 @@ const ExperienceList = () => {
     <>
       <CardGlass>
         <Container>
-          <LogoCompany src={LogoEasy} alt="Me"></LogoCompany>
+          <LogoCompany src={LogoEasy} alt="Easy"></LogoCompany>
           <ContainerText>
             <Title>{t("experience.cencosud.company")}</Title>
             <SubTitle>{t("experience.cencosud.position")}</SubTitle>
@@ -46,7 +46,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <LogoCompany src={(theme === 'dark' ? LogoTcsDark : LogoTcsLight)} alt="Me"></LogoCompany>
+          <LogoCompany src={(theme === 'dark' ? LogoTcsDark : LogoTcsLight)} alt="Tcs"></LogoCompany>
           <ContainerText>
             <Title>{t("experience.tcs.company")}</Title>
             <SubTitle>{t("experience.tcs.position")}</SubTitle>
@@ -67,7 +67,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <LogoCompany src={LogoIpp} alt="Me"></LogoCompany>
+          <LogoCompany src={LogoIpp} alt="Ipp"></LogoCompany>
           <ContainerText>
             <Title>{t("experience.ipp.company")}</Title>
             <SubTitle>{t("experience.ipp.position")}</SubTitle>
@@ -88,7 +88,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <LogoCompany src={LogoOpensoft} alt="Me"></LogoCompany>
+          <LogoCompany src={LogoOpensoft} alt="Opensoft"></LogoCompany>
           <ContainerText>
             <Title>{t("experience.opensoft.company")}</Title>
             <SubTitle>{t("experience.opensoft.position")}</SubTitle>
@@ -109,7 +109,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <LogoCompany src={LogoIg} alt="Me"></LogoCompany>
+          <LogoCompany src={LogoIg} alt="Ig"></LogoCompany>
           <ContainerText>
             <Title>{t("experience.imagenglobal.company")}</Title>
             <SubTitle>{t("experience.imagenglobal.position")}</SubTitle>
