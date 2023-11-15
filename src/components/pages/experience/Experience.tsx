@@ -1,5 +1,4 @@
 import { Container, Col, Row } from "react-grid-system";
-import { ExperienceEasy, ExperienceTcs } from "@/components/molecules";
 import ExperienceList from "@/components/molecules/ExperienceList/ExperienceList";
 
 const Experience = () => {
@@ -16,8 +15,6 @@ const Experience = () => {
             }}
           >
             <ExperienceList />
-            <ExperienceEasy />
-            <ExperienceTcs />
           </Col>
         </Row>
       </Container>
