@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 import LogoEasy from "@/assets/logosExperience/easy.png";
 import LogoTcsDark from "@/assets/logosExperience/tcsDark.png";
 import LogoTcsLight from "@/assets/logosExperience/tcsLight.png";
-import LogoIpp from "@/assets/logosExperience/Logo_ipp.png";
+import LogoIpp from "@/assets/logosExperience/logo_ipp.png";
 import LogoOpensoft from "@/assets/logosExperience/logo_opensoft.jpg";
 import LogoIg from "@/assets/logosExperience/logo_ig.png";
 
