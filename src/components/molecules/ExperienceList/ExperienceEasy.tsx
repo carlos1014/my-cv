@@ -12,7 +12,7 @@ import {
 } from "./ExperienceList.style";
 import { useTranslation } from "react-i18next";
 
-const ExperienceList = () => {
+const ExperienceEasy = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -38,4 +38,4 @@ const ExperienceList = () => {
   );
 };
 
-export default ExperienceList;
+export default ExperienceEasy;

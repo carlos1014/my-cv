@@ -13,7 +13,8 @@ import {
 } from "./ExperienceList.style";
 import { useTranslation } from "react-i18next";
 const theme = localStorage.getItem("theme") || "";
-const ExperienceList = () => {
+
+const ExperienceTcs = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -44,4 +45,4 @@ const ExperienceList = () => {
   );
 };
 
-export default ExperienceList;
+export default ExperienceTcs;
