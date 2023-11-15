@@ -5,7 +5,7 @@ import Javascript from "@/assets/iconsSkills/light/javascript_icon.svg";
 import Typescript from "@/assets/iconsSkills/light/typescript_icon.svg";
 import Html from "@/assets/iconsSkills/light/html_5.svg";
 import Css from "@/assets/iconsSkills/light/css3_icon.svg";
-import Jquery from "@/assets/iconsSkills/light/Jquery_icon.svg";
+import Jquery from "@/assets/iconsSkills/light/jquery_icon.svg";
 import Photoshop from "@/assets/iconsSkills/light/adobe_photoshop_icon.svg";
 import Ilustrator from "@/assets/iconsSkills/light/adobe_illustrator_icon.svg";
 import Premier from "@/assets/iconsSkills/light/adobe_premiere.svg";
