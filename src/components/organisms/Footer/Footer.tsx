@@ -49,7 +49,7 @@ const onGetLinkedin = () => {
 
 const onGetHome = () => {
   window.open(
-    "/"
+    "/", "_self"
   );
 };
 const Footer = (props: Props) => {

@@ -14,6 +14,8 @@ import {
   Container,
   Date,
   Duration,
+  LogoEasy,
+  LogoTcs,
 } from "./ExperienceList.style";
 import { useTranslation } from "react-i18next";
 
@@ -24,7 +26,7 @@ const ExperienceList = () => {
     <>
       <CardGlass>
         <Container>
-          <LogoCompany src={Easy} alt="Easy"></LogoCompany>
+          <LogoEasy src={Easy} alt="Easy"></LogoEasy>
           <ContainerText>
             <Title>{t("experience.cencosud.company")}</Title>
             <SubTitle>{t("experience.cencosud.position")}</SubTitle>
@@ -45,7 +47,7 @@ const ExperienceList = () => {
         }}
       >
         <Container>
-          <LogoCompany src={(theme === 'dark' ? LogoTcsDark : LogoTcsLight)} alt="Tcs"></LogoCompany>
+          <LogoTcs src={(theme === 'dark' ? LogoTcsDark : LogoTcsLight)} alt="Tcs"></LogoTcs>
           <ContainerText>
             <Title>{t("experience.tcs.company")}</Title>
             <SubTitle>{t("experience.tcs.position")}</SubTitle>

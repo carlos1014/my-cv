@@ -6,7 +6,7 @@ const Logo = () => {
     const theme = (localStorage.getItem("theme") || "");
     const onGetHome = () => {
       window.open(
-        "/"
+        "/", "_self"
       );
     };
         
