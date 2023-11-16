@@ -102,10 +102,25 @@
         "date": "1995 - 2000"
     }
     },
-    "experiments":
-    {
-      "coming": "PROXIMAMENTE DISPONIBLE"
-    }
+    "experiments": {
+      "common":{
+        "online": "VER ON LINE",
+        "git": "VER EN GITHUB",
+        "under": "EN CONSTRUCCIÓN"
+      },      
+      "mycv":{
+        "title": "Mi Web Personal",
+        "text": "Desarrollado en React + Vite + typescript. Manejo de hooks, atomic Desing, Styled-components, responsive, theme, idiomas"
+      },
+      "memo":{
+        "title": "Memorama The Rick and Morty",
+        "text": "Desarrollado en React + typescript. Manejo de bootstrap, responsive, hooks, axios, routes y storage"
+      },
+      "starwars":{
+        "title": "Personajes de Star Wars",
+        "text": "Desarrollado en React + Vite + typescript + redux. Manejo de hooks, atomic Desing, Styled-components, responsive"
+      }
+  }
 
   }
 
