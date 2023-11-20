@@ -57,10 +57,10 @@ const onGetHome = () => {
 
 const onGetPdf = () => {
   if (window.localStorage.getItem("language") === "en_us")
-    window.open("src/assets/download/cv_en_carlos_sanmartin.pdf"),
+    window.open("download/cv_en_carlos_sanmartin.pdf"),
     "_blank";
   else {
-    window.open("src/assets/download/cv_es_carlos_sanmartin.pdf"),
+    window.open("download/cv_es_carlos_sanmartin.pdf"),
     "_blank";
   }
 };
