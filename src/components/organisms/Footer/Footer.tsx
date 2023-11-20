@@ -1,4 +1,9 @@
-import { FaEnvelope, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaFilePdf,
+  FaLinkedin,
+  FaWhatsappSquare,
+} from "react-icons/fa";
 import {
   Container,
   ContainerLogo,
@@ -46,12 +51,20 @@ const onGetLinkedin = () => {
   );
 };
 
-
 const onGetHome = () => {
-  window.open(
-    "/", "_self"
-  );
+  window.open("/", "_self");
 };
+
+const onGetPdf = () => {
+  if (window.localStorage.getItem("language") === "en_us")
+    window.open("src/assets/download/cv_en_carlos_sanmartin.pdf"),
+    "_blank";
+  else {
+    window.open("src/assets/download/cv_es_carlos_sanmartin.pdf"),
+    "_blank";
+  }
+};
+
 const Footer = (props: Props) => {
   // Props
   const isDark = window.localStorage.getItem("theme") === "light";
@@ -63,7 +76,12 @@ const Footer = (props: Props) => {
   return (
     <FooterStyle>
       <ContainerLogo>
-        <img src={isDark ? LogoBlack : LogoWhite} alt="" className="imgLogo" onClick={() => onGetHome()} />
+        <img
+          src={isDark ? LogoBlack : LogoWhite}
+          alt=""
+          className="imgLogo"
+          onClick={() => onGetHome()}
+        />
       </ContainerLogo>
       <Container>
         <WhatsappStyle>
@@ -74,6 +92,9 @@ const Footer = (props: Props) => {
         </MailStyle>
         <InStyle>
           <FaLinkedin style={style} onClick={() => onGetLinkedin()} />
+        </InStyle>
+        <InStyle>
+          <FaFilePdf style={style} onClick={() => onGetPdf()} />
         </InStyle>
       </Container>
     </FooterStyle>
